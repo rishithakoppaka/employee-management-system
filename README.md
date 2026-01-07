@@ -127,13 +127,6 @@ snyk test --json > snyk_report.md
 
 Import `postman_collection.json` into Postman to test all API endpoints.
 
-## Demo Video
 
-Record a 2-3 minute walkthrough demonstrating:
-1. Adding employees via Streamlit UI
-2. Viewing all employees
-3. Viewing median age and salary
-4. Deleting an employee
-5. Testing API endpoints in Postman/Swagger
 
 
