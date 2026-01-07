@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Snyk
+snyk_report.json
+
+# Demo video (optional - remove if you want to commit)
+demo_video.mp4
+
+# Temporary SQL files (optional - remove if you want to commit)
+*.sql
+add_employee_example.sql
+delete_employee_examples.sql
+change_id_examples.sql
+view_employees.sql
+
+# Helper scripts (optional - remove if you want to commit)
+start_employee_api.bat
+start_employee_api.ps1
+

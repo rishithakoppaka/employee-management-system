@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "employee-management-api",
+		"name": "Employee Management API",
+		"description": "Postman collection for Employee Management System API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						""
+					]
+				}
+			}
+		},
+		{
+			"name": "Add Employee",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Doe\",\n    \"age\": 30,\n    \"salary\": 50000.0,\n    \"department\": \"Engineering\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"employee"
+					]
+				}
+			}
+		},
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"employees"
+					]
+				}
+			}
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/employee/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"employee",
+						"1"
+					]
+				}
+			}
+		},
+		{
+			"name": "Get Median Age",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/stats/median-age",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"stats",
+						"median-age"
+					]
+				}
+			}
+		},
+		{
+			"name": "Get Median Salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8000/stats/median-salary",
+				"protocol": "http",
+				"host": [
+					"localhost"
+				],
+				"port": "8000",
+				"path": [
+					"stats",
+					"median-salary"
+				]
+			}
+		}
+	]
+}
+
+
+
