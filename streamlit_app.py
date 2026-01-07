@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Configuration
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8001")
+API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 
 def call_api(endpoint: str, method: str = "GET", data: Optional[Dict] = None) -> Tuple[Optional[Dict], Optional[str], int]:

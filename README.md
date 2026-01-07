@@ -136,31 +136,4 @@ Record a 2-3 minute walkthrough demonstrating:
 4. Deleting an employee
 5. Testing API endpoints in Postman/Swagger
 
-## GitHub Repository Setup
-
-This project is ready for GitHub with:
-- ✅ Clear project structure
-- ✅ `.gitignore` configured (excludes `.env`, cache files, etc.)
-- ✅ `.env.example` template for environment configuration
-- ✅ Comprehensive documentation
-
-**Quick Setup:**
-1. Copy `.env.example` to `.env` and update with your credentials
-2. See `GITHUB_SETUP.md` for detailed GitHub repository setup instructions
-
-**Repository Structure:**
-```
-employee-management-system/
-├── db/              # Database utilities
-├── models/          # OOP classes (Person, Employee, HRManager)
-├── tests/           # Test suite
-├── main.py          # FastAPI backend
-├── streamlit_app.py # Streamlit frontend
-├── requirements.txt # Dependencies
-├── .env.example     # Environment template
-└── README.md        # Documentation
-```
-
-For detailed GitHub setup instructions, see [GITHUB_SETUP.md](GITHUB_SETUP.md).
-
 
